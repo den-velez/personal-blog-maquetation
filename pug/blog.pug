@@ -1,0 +1,10 @@
+extend components/template.pug
+block contenidos
+  section.blogpost
+    figure.blogpostImgContainer
+      img(src=blogPrincipalurl, alt="imageBlog")
+    .blogpostTextContainer
+      p.blogspotCategory #{titulos[1]}
+      h1.blogspotTitle #{blogsName}
+      p.blogspotText #{blogpostText}
+  include components/contact.pug

@@ -10,13 +10,32 @@
 -var logoBlanco = '../assets/images/Logo-blanco.png'
 -var blogPrincipalurl = '../assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png'
 -var blogPrincipalText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? '
+-var blogpostText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat?'
 -var blogsText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero'
+-var contactText = 'Lorem ipsum dolor sit amet consectetur adipisicing'
+-var contactUrl1 = '../assets/images/013-newsletter.png'
+-var contactUrl2 = '../assets/images/006-like.png'
+-var profileImgUrl = '../assets/images/warren-wong-iOWry_4xGmc-unsplash.jpg'
 
-mixin blogs(img,titulo, parrafo)
+mixin blogs(img,title, text)
   .blogs
     figure.blogsContainerImg
-      img(src=img alt=titulo)
+      img(src=img alt=title)
     div.blogsTextContainer
-      h3 #{titulo}
-      p #{parrafo}
-    button.btnblogs Leer mas
+      h3 #{title}
+      p #{text}
+    a.btnblogs(href="blog.html") #{buttonvalue}
+
+mixin contact(img, title, text)
+  .contactContainer
+    figure.contactImgContainer
+      img(src=img alt=title)
+    .contactTextsContainer  
+      a.contactLink
+        h3 #{title}
+      p.contactText #{text}
+
+mixin projects(title, text)
+  .projectContainer
+    h3 #{title}
+    p #{text}

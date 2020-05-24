@@ -12,6 +12,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #23282d;
 }
 
 header {
@@ -207,16 +208,20 @@ footer {
 }
 
 .blog-description p {
-  font-size: 14px;
+  font-size: 12px;
   overflow: hidden;
 }
 
 .btnblogs {
-  width: 120px;
+  width: 100px;
   height: 40px;
+  padding-top: 8px;
   background-color: transparent;
   border: 1px black solid;
+  border-radius: 2px;
   text-align: center;
+  font-size: 13px;
+  font-weight: 400;
   cursor: pointer;
 }
 
@@ -261,4 +266,157 @@ footer {
 
 .blogsTextContainer p {
   font-size: 13px;
+}
+
+.blogpost {
+  width: 100%;
+}
+
+.blogpostImgContainer {
+  margin: 0 auto;
+  width: 90%;
+  height: 350px;
+}
+
+.blogpostImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blogpostTextContainer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.blogspotCategory {
+  margin-top: 30px;
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid #23282d;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.blogspotTitle {
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.blogspotText {
+  margin: 35px 0;
+}
+
+.contactFooter {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #ccd1d9;
+}
+
+.contactContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.contactImgContainer {
+  grid-column: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactImgContainer img {
+  width: 90px;
+}
+
+.contactTextsContainer {
+  grid-column: 2;
+  display: inline;
+}
+
+.contactLink {
+  cursor: pointer;
+}
+
+.contactLink h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+  text-decoration: underline;
+}
+
+.contactText {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.aboutMe {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  background-color: #ccd1d9;
+  align-items: center;
+}
+
+.aboutMeImgContainer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.aboutMeImgContainer img {
+  width: 75%;
+  height: 60%;
+  object-fit: cover;
+}
+
+.aboutMeTexts {
+  height: 60%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutMeTexts h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.myProjects {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.myProjectsTitle {
+  margin: 50px auto 0 auto;
+  height: 40px;
+  text-align: center;
+  font-weight: 400;
+  border-bottom: 1px solid #ccd1d9;
+}
+
+.myProjectsList {
+  margin-top: 30px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.projectContainer {
+  width: 100%;
+  height: 300px;
+  padding: 0 30px;
+}
+
+.projectContainer h3 {
+  margin-bottom: 10px;
+  font-weight: 400;
 }

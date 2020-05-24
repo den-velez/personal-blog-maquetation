@@ -1,0 +1,15 @@
+extend components/template.pug
+block contenidos
+  section.aboutMe
+    figure.aboutMeImgContainer
+      img(src=profileImgUrl, alt="profile image")
+    .aboutMeTexts
+      h1 Hola!
+      p #{blogPrincipalText}
+  section.myProjects
+    h3.myProjectsTitle Proyectos
+    .myProjectsList
+      +projects('Text', blogPrincipalText)
+      +projects('Text', blogPrincipalText)
+      +projects('Text', blogPrincipalText)
+  include components/contact.pug

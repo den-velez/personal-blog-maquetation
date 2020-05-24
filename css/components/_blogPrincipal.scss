@@ -41,15 +41,19 @@
   font-weight: 400;
 }
 .blog-description p {
-  font-size: 14px;
+  font-size: 12px;
   overflow: hidden;
 }
 
 .btnblogs {
-  width: 120px;
+  width: 100px;
   height: 40px;
+  padding-top: 8px;
   background-color: transparent;
   border: 1px black solid;
+  border-radius: 2px;
   text-align: center;
+  font-size: 13px;
+  font-weight: 400;
   cursor: pointer;
 }

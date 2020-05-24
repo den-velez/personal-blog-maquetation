@@ -1,0 +1,35 @@
+.blogpost {
+  width: 100%;
+}
+.blogpostImgContainer {
+  margin: 0 auto;
+  width: 90%;
+  height: 350px;
+}
+.blogpostImgContainer img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.blogpostTextContainer {
+  margin: 0 auto;
+  width: 60%;
+}
+
+.blogspotCategory {
+  margin-top: 30px;
+  width: 100%;
+  height: 30px;
+  border-bottom: 1px solid $colorPrincipalOscuro3;
+  text-transform: capitalize;
+  font-weight: 500;
+}
+
+.blogspotTitle {
+  margin: 20px 0;
+  font-size: 40px;
+}
+.blogspotText {
+  margin: 35px 0;
+}

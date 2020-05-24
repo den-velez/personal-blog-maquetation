@@ -1,0 +1,16 @@
+include components/config.pug
+doctype html
+html
+  include components/head.pug
+  body
+    include components/header.pug
+    main.homepage
+      nav.homepageNav
+        figure.homepageNav-logoContainer
+          img(src=logoBlanco ,alt="Logo de blog") 
+        a.homepageNav-profile(href="profile.html")
+          span Sobre mi
+      section.homepagePrincipal
+        h2 #{hometext}
+        .homepagePrincipal-btnContainer
+          a(href="blogs.html") Entra ya!

@@ -1,0 +1,22 @@
+-var proyectos = ['Primer Proyecto', 'Segundo Proyecto', 'Tercer Proyecto']
+-var feedbacks = ['contacto', 'escribe']
+-var titulos = ['proyectos', 'noticias', 'ultimos blogs']
+-var blogsName= 'Titulo del blogpost'
+-var buttonvalue= 'Leer más'
+-var footertext = 'Hecho por den velez inc'
+-var hometext = "Conoce las novedades y noticias del mundo Tech"
+-var pages = ['home', 'others']
+-var logoNegro = '../assets/images/Logo-negro.png'
+-var logoBlanco = '../assets/images/Logo-blanco.png'
+-var blogPrincipalurl = '../assets/images/lorenzo-herrera-p0j-mE6mGo4-unsplash-2.png'
+-var blogPrincipalText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero, optio rem sapiente inventore saepe! Possimus laboriosam optio soluta illo quos dolor. Quaerat? '
+-var blogsText = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus culpa quae commodi delectus blanditiis numquam eius vero'
+
+mixin blogs(img,titulo, parrafo)
+  .blogs
+    figure.blogsContainerImg
+      img(src=img alt=titulo)
+    div.blogsTextContainer
+      h3 #{titulo}
+      p #{parrafo}
+    button.btnblogs Leer mas

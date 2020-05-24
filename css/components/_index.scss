@@ -1,0 +1,58 @@
+.homepage {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url(../../assets/images/Cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.homepageNav {
+  height: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.homepageNav-logoContainer {
+  height: auto;
+  margin-left: 40px;
+}
+.homepageNav img {
+  width: 350px;
+}
+.homepageNav-profile {
+  height: auto;
+  margin-right: 40px;
+  text-align: end;
+}
+.homepageNav-profile span {
+  font-size: 30px;
+  border-bottom: 1px solid $colorClaro;
+  color: $colorClaro;
+}
+.homepagePrincipal {
+  margin: 0 auto;
+  width: 60%;
+  height: 70%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+.homepagePrincipal h2 {
+  height: 50%;
+  padding: 40px;
+  font-size: 60px;
+  text-align: center;
+  color: $colorClaro;
+}
+.homepagePrincipal-btnContainer {
+  display: flex;
+  justify-content: center;
+}
+.homepagePrincipal-btnContainer a {
+  width: 210px;
+  height: 70px;
+  background-color: $colorPrincipalClaro1;
+  font-size: 24px;
+  padding-top: 16px;
+  text-align: center;
+  color: $colorPrincipalOscuro3;
+}

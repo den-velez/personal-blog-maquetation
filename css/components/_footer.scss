@@ -1,0 +1,18 @@
+footer {
+  width: 100%;
+  height: 140px;
+}
+.footerSup {
+  height: 50px;
+  background-color: $colorPrincipalClaro1;
+}
+.footerInf {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $colorPrincipalOscuro3;
+}
+.footerInf span {
+  color: $colorClaro;
+}

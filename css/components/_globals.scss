@@ -1,0 +1,24 @@
+$Fuente1: "Roboto Mono", sans-serif;
+$colorPrincipalClaro1: #61f2f5;
+$colorPrincipalClaro2: #e6e9ed;
+$colorPrincipalClaro3: #ccd1d9;
+$colorPrincipalOscuro1: #434a54;
+$colorPrincipalOscuro2: #656f78;
+$colorPrincipalOscuro3: #23282d;
+$colorSecundario1: #ac92ec;
+$colorSecundario2: #a0d468;
+$colorClaro: #fff;
+$urlhome: "../assets/images/cover.png";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: $Fuente1;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+}

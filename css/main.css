@@ -1,0 +1,264 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Roboto Mono", sans-serif;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 90px;
+  background-color: #61f2f5;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.headerNavegation {
+  margin-right: 50px;
+  width: 400px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+.headerNavegation-items {
+  margin-right: 20px;
+}
+
+.headerNavegation-items a {
+  color: #fff;
+  font-size: 45px;
+}
+
+.headerWhite {
+  width: 100%;
+  height: 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.headerWhite-logoContainer {
+  height: auto;
+  margin-left: 40px;
+}
+
+.headerWhite-logoContainer img {
+  width: 350px;
+}
+
+.headerWhite-profile {
+  height: auto;
+  margin-right: 40px;
+  text-align: end;
+}
+
+.headerWhite-profile span {
+  font-size: 30px;
+  border-bottom: 1px solid #23282d;
+  color: #23282d;
+}
+
+.homepage {
+  width: 100%;
+  height: calc(100vh - 90px);
+  background-image: url(../../assets/images/Cover.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homepageNav {
+  height: 30%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.homepageNav-logoContainer {
+  height: auto;
+  margin-left: 40px;
+}
+
+.homepageNav img {
+  width: 350px;
+}
+
+.homepageNav-profile {
+  height: auto;
+  margin-right: 40px;
+  text-align: end;
+}
+
+.homepageNav-profile span {
+  font-size: 30px;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+}
+
+.homepagePrincipal {
+  margin: 0 auto;
+  width: 60%;
+  height: 70%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  justify-content: center;
+}
+
+.homepagePrincipal h2 {
+  height: 50%;
+  padding: 40px;
+  font-size: 60px;
+  text-align: center;
+  color: #fff;
+}
+
+.homepagePrincipal-btnContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.homepagePrincipal-btnContainer a {
+  width: 210px;
+  height: 70px;
+  background-color: #61f2f5;
+  font-size: 24px;
+  padding-top: 16px;
+  text-align: center;
+  color: #23282d;
+}
+
+footer {
+  width: 100%;
+  height: 140px;
+}
+
+.footerSup {
+  height: 50px;
+  background-color: #61f2f5;
+}
+
+.footerInf {
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #23282d;
+}
+
+.footerInf span {
+  color: #fff;
+}
+
+.blogContainer {
+  width: 100%;
+  height: 450px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 10% 90%;
+  background-color: #ccd1d9;
+}
+
+.blogTitle {
+  margin: 0;
+  height: 100%;
+  padding-top: 10px;
+  padding-left: calc((100% - 600px) / 2);
+  text-transform: capitalize;
+  font-weight: 200;
+}
+
+.blog-description1-imgContainer {
+  grid-column: 1;
+  height: 90%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.blog-description1-imgContainer img {
+  max-width: 600px;
+}
+
+.blog-description {
+  width: 80%;
+  height: 80%;
+  grid-column: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.blog-description h1 {
+  font-size: 36px;
+  font-weight: 400;
+}
+
+.blog-description p {
+  font-size: 14px;
+  overflow: hidden;
+}
+
+.btnblogs {
+  width: 120px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px black solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+.listadoBlogsTitle {
+  padding-top: 60px;
+  height: 100px;
+  border-bottom: 1px solid #23282d;
+  text-align: center;
+  font-weight: 300;
+}
+
+.blogsContainer {
+  margin: 20px auto;
+  max-width: 1200px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 40px;
+  grid-column-gap: 50px;
+}
+
+.blogs {
+  max-width: 350px;
+  height: 350px;
+  display: grid;
+  justify-content: center;
+  grid-template-rows: 2fr 2fr 1fr;
+  align-items: center;
+}
+
+.blogsContainerImg {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.blogsContainerImg img {
+  width: 100%;
+}
+
+.blogsTextContainer p {
+  font-size: 13px;
+}

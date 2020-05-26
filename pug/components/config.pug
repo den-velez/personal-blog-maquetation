@@ -2,7 +2,7 @@
 -var feedbacks = ['contacto', 'escribe']
 -var titulos = ['proyectos', 'noticias', 'ultimos blogs']
 -var blogsName= 'Titulo del blogpost'
--var buttonvalue= 'Leer más'
+-var buttonvalue= 'Leer mas'
 -var footertext = 'Hecho por den velez inc'
 -var hometext = "Conoce las novedades y noticias del mundo Tech"
 -var pages = ['home', 'others']
@@ -24,7 +24,8 @@ mixin blogs(img,title, text)
     div.blogsTextContainer
       h3 #{title}
       p #{text}
-    a.btnblogs(href="blog.html") #{buttonvalue}
+    a.btnblogs(href="blog.html")
+      span #{buttonvalue}
 
 mixin contact(img, title, text)
   .contactContainer

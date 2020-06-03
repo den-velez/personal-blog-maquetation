@@ -1,4 +1,4 @@
-# Blog Maquetation
+# Personal Blog Maquetation
   A Personal Blog with 4 pages (home, blogs, blog, about me). Could be useful for your first blog.
 
 ### Demo
